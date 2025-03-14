@@ -1,6 +1,6 @@
 
 import React from 'react';
-import RegisterForm from '@/components/Register-LoginForm';
+import RegisterForm from '@/components/auth/Register-LoginForm';
 
 const RegisterFormLogin = () => {
   return (

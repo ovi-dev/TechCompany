@@ -1,6 +1,6 @@
 import React from 'react'
-import LoginForm from '@/components/LoginForm'
-import LoginModal from '@/components/LoginForm';
+import LoginForm from '@/components/auth/LoginForm'
+import LoginModal from '@/components/auth/LoginForm';
 
 export const metadata = {
  title: 'Usuarios',

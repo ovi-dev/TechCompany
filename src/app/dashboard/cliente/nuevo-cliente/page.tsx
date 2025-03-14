@@ -1,3 +1,4 @@
+import RegisterFormClientes from '@/components/clientes/RegisterFormClientes';
 import React from 'react'
 
 export const metadata = {
@@ -8,7 +9,7 @@ export const metadata = {
 const NuevoCliente = () => {
   return (
     <div>
-      <h1>Registrar Nuevo Cliente</h1>
+      <RegisterFormClientes/>
     </div>
   )
 }
