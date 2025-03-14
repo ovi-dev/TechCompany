@@ -25,7 +25,6 @@ const RegisterForm = () => {
   } = useForm<FormData>({
     mode: "onBlur" // Validación al perder el foco
   });
-
   // Para comparar las contraseñas
   const password = watch("password");
 
@@ -47,7 +46,7 @@ const RegisterForm = () => {
       setSubmitSuccess(false);
     }, 5000);
   };
-
+  
   const togglePasswordVisibility = () => setShowPassword((prev) => !prev);
   const toggleConfirmPasswordVisibility = () => setShowConfirmPassword((prev) => !prev);
 
