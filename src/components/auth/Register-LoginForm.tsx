@@ -1,7 +1,7 @@
 'use client';
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { FaUser, FaLock, FaEye, FaEyeSlash, FaEnvelope, FaSignature } from "react-icons/fa";
+import { FaLock, FaEye, FaEyeSlash, FaEnvelope, FaSignature } from "react-icons/fa";
 
 interface FormData {
   firstName: string;
